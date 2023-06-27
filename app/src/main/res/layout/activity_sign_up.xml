@@ -68,7 +68,7 @@
                         android:textSize="18sp"
                         android:textColorHint="@color/black"
                         android:drawableStart="@drawable/ic_person"
-                        android:id="@+id/registerfullname"/>
+                        android:id="@+id/registerusername"/>
 
 
                 </com.google.android.material.textfield.TextInputLayout>
@@ -94,7 +94,7 @@
                         android:inputType="number"
                         android:textColorHint="@color/black"
                         android:drawableStart="@drawable/ic_id_icon"
-                        android:id="@+id/registerphonenumber"/>
+                        android:id="@+id/registerage"/>
 
 
                 </com.google.android.material.textfield.TextInputLayout>
