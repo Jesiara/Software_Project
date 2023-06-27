@@ -24,9 +24,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
-//        setContentView(R.layout.activity_main);
-//        getSupportActionBar().hide();
 
         logo=findViewById(R.id.logo);
         title=findViewById(R.id.title);
@@ -45,9 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
         int SPLASH_SCREEN=4300;
         new Handler().postDelayed(new Runnable() {
-            /**
-             * Intents from Splash Screen to LogInOrSignPage
-             */
+
             @Override
             public void run() {
                 Intent intent =new Intent(MainActivity.this, login.class);

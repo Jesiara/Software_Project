@@ -4,8 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/ASUS/Desktop/kisu ekta hok/Software_Project/app/src/main/res/drawable/bg_view.xml" value="0.2405" />
+        <entry key="..\:/Users/ASUS/Desktop/kisu ekta hok/Software_Project/app/src/main/res/drawable/ic_id_icon.xml" value="0.2405" />
+        <entry key="..\:/Users/ASUS/Desktop/kisu ekta hok/Software_Project/app/src/main/res/drawable/ic_lock.xml" value="0.2405" />
+        <entry key="..\:/Users/ASUS/Desktop/kisu ekta hok/Software_Project/app/src/main/res/drawable/ic_mail.xml" value="0.2405" />
+        <entry key="..\:/Users/ASUS/Desktop/kisu ekta hok/Software_Project/app/src/main/res/drawable/ic_person.xml" value="0.2405" />
         <entry key="..\:/Users/ASUS/Desktop/kisu ekta hok/Software_Project/app/src/main/res/layout/activity_login.xml" value="0.21784420289855072" />
         <entry key="..\:/Users/ASUS/Desktop/kisu ekta hok/Software_Project/app/src/main/res/layout/activity_main.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/ASUS/Desktop/kisu ekta hok/Software_Project/app/src/main/res/layout/activity_sign_up.xml" value="0.21784420289855072" />
       </map>
     </option>
   </component>
