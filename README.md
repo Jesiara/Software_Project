@@ -1,4 +1,3 @@
-
 #MOCKUPS
 
 ![WhatsApp Image 2023-07-06 at 45216 AM 1](https://github.com/Arunbe-Arpa/Software_Project/assets/126982225/69280ec1-508f-460f-8ead-e5263efe7166)
