@@ -27,4 +27,3 @@ The app should allow the user to:
 
 5.delete a measurement
 
-# Software_Project
