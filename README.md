@@ -1,8 +1,10 @@
 # HeartMonitor
-This app which is named "HeartMonitor" will provide the user to monitor his blood pressure .
-Each measurement have the following field:
 
-1.date measured (presented in dd-mm-yyyy format).
+CardioTrack is a user-friendly Android app that helps monitor heart rate, BMI, and blood pressure. With its intuitive interface and convenient features, it provides a seamless experience for users to track their vital health metrics. Whether for daily health management or maintaining a healthy lifestyle, CardioTrack is the ultimate companion for heart monitoring and wellness.
+
+This app which is named "HeartMonitor" will provide the user to monitor his blood pressure
+Each measurement have the following field:
+1.date measured (presented in dd-mm-yyyy format).                                                                                                                     
 
 2.time measured (presented in hh:mm format)
 
@@ -14,18 +16,4 @@ Each measurement have the following field:
 
 6.comment (textual, up to 20 characters)
 
-
-The app should allow the user to:
-
-1.Sign up and Login
-
-2.show a list of records
-
-3.add a new measurement (which always appends to the bottom end of the list)
-![photo_2023-07-06_04-42-17](https://github.com/Jesiara/Software_Project/assets/126666822/73b06688-89d1-46b1-ac77-65fdcf34ef20)
-
-4.view and edit the details of an existing measurement
-
-5.delete a measurement
-![photo_2023-07-06_04-42-17](https://github.com/Jesiara/Software_Project/assets/126666822/45eb3086-b224-4f50-90cd-5d886a21eb6e)
 
