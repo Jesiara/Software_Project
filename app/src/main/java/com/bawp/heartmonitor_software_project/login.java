@@ -93,7 +93,11 @@ public class login extends AppCompatActivity {
 
                                 // reff= FirebaseDatabase.getInstance().getReference().child("Common").child(newmail);
 
-
+                                 Intent intent = new Intent(login.this,HomeActivity.class);
+                                 //arpa
+                                 intent.putExtra("email",newmail);
+                                 //arpa
+                                 startActivity(intent);
                                 //finish();
                             } else {
                                 Toast.makeText(login.this,task.getException().toString(), Toast.LENGTH_SHORT).show();
