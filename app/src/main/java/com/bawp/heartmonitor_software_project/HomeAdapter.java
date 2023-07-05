@@ -85,7 +85,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
                         String heartRate = user.getHeartRate();
                         String comment = user.getComment();
 
-                        DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference().child("Details").child(email);
+                        DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference().child("Details");//.child(email);
 
                         databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
                             @Override
@@ -96,7 +96,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
                                         String pushId = dataSnapshot.getKey();
                                         if (pushId != null) {
                                             // Pass the pushId to the UpdateActivity
-                                            Intent intent = new Intent(context, Update.class);
+                                            Intent intent = new Intent(context, HomeActivity.class);
                                             intent.putExtra("pushId", pushId);
                                             intent.putExtra("mail", email);
 
@@ -129,7 +129,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
                         String heartRate = user.getHeartRate();
                         String comment = user.getComment();
 
-                        DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference().child("Details").child(email);
+                        DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference().child("Details");//.child(email);
 
                         databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
                             @Override

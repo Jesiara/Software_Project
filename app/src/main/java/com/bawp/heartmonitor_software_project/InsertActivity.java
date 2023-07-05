@@ -39,7 +39,7 @@ public class InsertActivity extends AppCompatActivity {
         saveButton = findViewById(R.id.saveButton);
 
         firebaseDatabase = FirebaseDatabase.getInstance();
-        databaseReference = firebaseDatabase.getReference("Details").child(mail);
+        databaseReference = firebaseDatabase.getReference("Details");//.child(mail);
 
         saveButton.setOnClickListener(new View.OnClickListener() {
             @Override

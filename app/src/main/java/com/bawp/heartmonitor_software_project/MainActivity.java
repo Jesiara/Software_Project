@@ -12,6 +12,9 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
 public class MainActivity extends AppCompatActivity {
 
     private ImageView logo;
@@ -32,7 +35,8 @@ public class MainActivity extends AppCompatActivity {
         topanimation= AnimationUtils.loadAnimation(this,R.anim.top_animation);
         bottomanimation=AnimationUtils.loadAnimation(this,R.anim.bottom_animation);
 
-        //FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        //jesi
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
 
 
         logo.setAnimation(topanimation);
@@ -45,9 +49,27 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void run() {
-                Intent intent =new Intent(MainActivity.this, login.class);
-                startActivity(intent);
-                finish();
+                //jesi
+                //FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+
+                if (user != null) {
+                    String mail;
+                    mail=user.getEmail();
+                    String newmail=mail.replace(".",",");
+
+                    Intent intent = new Intent(MainActivity.this, HomeActivity.class);
+                    intent.putExtra("email",newmail);
+                    startActivity(intent);
+                    finish();
+                } else {
+
+                    Intent intent = new Intent(MainActivity.this, login.class);
+                    startActivity(intent);
+                    finish();
+
+                }
+
+                //jesi
             }
         },SPLASH_SCREEN);
     }

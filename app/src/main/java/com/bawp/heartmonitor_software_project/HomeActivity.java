@@ -44,14 +44,14 @@ public class HomeActivity extends AppCompatActivity {
         String mail = getIntent().getStringExtra("email");
         if (mail == null) {
             Toast.makeText(this, "Error: Email not found", Toast.LENGTH_SHORT).show();
-            finish();
+           // finish();
             return;
         }
         firebaseDatabase = FirebaseDatabase.getInstance();
         userdetsArrayList = new ArrayList<>();
         homeAdapter = new HomeAdapter(userdetsArrayList, this, mail );
 
-        databaseReference = firebaseDatabase.getReference("Details").child(mail);
+        databaseReference = firebaseDatabase.getReference("Details");//.child(mail);
 
         detailsRV.setLayoutManager(new LinearLayoutManager(this));
         detailsRV.setAdapter(homeAdapter);
