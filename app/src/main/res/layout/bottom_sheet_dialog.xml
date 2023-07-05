@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:id="@+id/idRLBsheet"
+    >
+
+    <TextView
+        android:id="@+id/dets_dat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:layout_toLeftOf="@+id/dets_t"
+        android:singleLine="true"
+        android:padding="4dp"
+        android:text="Date: "
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dets_t"
+        android:text="Time: "
+        android:textColor="@color/black"
+        android:singleLine="true"
+        android:textStyle="bold"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="3dp"
+        android:padding="4dp"
+        android:textSize="17sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dets_s"
+        android:text="Systolic: "
+        android:textColor="@color/black"
+        android:layout_below="@id/dets_dat"
+        android:singleLine="true"
+        android:textStyle="bold"
+        android:layout_margin="3dp"
+        android:padding="4dp"
+        android:textSize="17sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dets_d"
+        android:text="Diastolic: "
+        android:textColor="@color/black"
+        android:layout_below="@id/dets_s"
+        android:singleLine="true"
+        android:textStyle="bold"
+        android:layout_margin="3dp"
+        android:padding="4dp"
+        android:textSize="17sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dets_hr"
+        android:text="Heart-rate: "
+        android:textColor="@color/black"
+        android:layout_below="@id/dets_d"
+        android:singleLine="true"
+        android:textStyle="bold"
+        android:layout_margin="3dp"
+        android:padding="4dp"
+        android:textSize="17sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dets_com"
+        android:text="Comment: "
+        android:textColor="#cc0000"
+        android:layout_below="@id/dets_hr"
+        android:singleLine="true"
+        android:textStyle="bold"
+        android:layout_margin="3dp"
+        android:padding="4dp"
+        android:textSize="17sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_below="@+id/dets_com"
+        >
+
+    <Button
+        android:layout_width="8dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:text="Edit"
+        android:textColor="@color/black"
+        android:backgroundTint="#E1937A"
+        android:id="@+id/btnedit"
+        />
+        <Button
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:text="Delete"
+            android:textColor="@color/black"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:id="@+id/btndel"
+           />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
