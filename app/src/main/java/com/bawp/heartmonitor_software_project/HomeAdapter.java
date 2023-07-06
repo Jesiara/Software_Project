@@ -96,7 +96,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
                                         String pushId = dataSnapshot.getKey();
                                         if (pushId != null) {
                                             // Pass the pushId to the UpdateActivity
-                                            Intent intent = new Intent(context, HomeActivity.class);
+                                            Intent intent = new Intent(context, Update.class);
                                             intent.putExtra("pushId", pushId);
                                             intent.putExtra("mail", email);
 
