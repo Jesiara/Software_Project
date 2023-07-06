@@ -1,6 +1,6 @@
 # HeartMonitor
 
-CardioTrack is a user-friendly Android app that helps monitor heart rate, BMI, and blood pressure. With its intuitive interface and convenient features, it provides a seamless experience for users to track their vital health metrics. Whether for daily health management or maintaining a healthy lifestyle, CardioTrack is the ultimate companion for heart monitoring and wellness.
+HeartMonitork is a user-friendly Android app that helps monitor heart rate, BMI, and blood pressure. With its intuitive interface and convenient features, it provides a seamless experience for users to track their vital health metrics. Whether for daily health management or maintaining a healthy lifestyle,HeartMonitor is the ultimate companion for heart monitoring and wellness.
 
 
 This app which is named "HeartMonitor" will provide the user to monitor his blood pressure              
