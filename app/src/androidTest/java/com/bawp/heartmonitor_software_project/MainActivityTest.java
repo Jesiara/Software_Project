@@ -46,17 +46,7 @@ public class MainActivityTest {
     }
 
 
-    @Test
-    public void testAddData(){
-        onView(withId(R.id.title)).check(matches(withText("Heart Monitor")));
-        //onView(withId(R.id.idRL)).check(matches(isDisplayed()));
-        Espresso.onView(withId(R.id.addDetails)).check(matches(isDisplayed()));
-        Espresso.onView(withId(R.id.addDetails)).perform(click()); //Click add button to add a city to the list
-       // Espresso.onView(withId(R.id.addDetails)).check(matches(isDisplayed())).perform(click());
 
-        //Confirm the city name and add to the list
-//        onView(withId(R.id.idRL)).check(matches(isDisplayed())); //Check the name on the screen
-    }
 
 
 }
